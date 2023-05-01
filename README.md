@@ -1,5 +1,11 @@
-# ROB530-HW5-Localization
-For this assignment, we will use [`ROS`](https://www.ros.org/) and `Python3` to execute the robot localization task.
+# MOBILE ROBOT LOCALIZATION
+**Here**, we will use [`ROS`](https://www.ros.org/) and `Python3` to execute the robot localization task.
+
+**(Before dependencies and installation process we first show our results below)**
+
+## Results
+
+
 
 ## Dependencies
 ### System
@@ -15,7 +21,7 @@ The system dependency preparation depends on your local system. Basically, you n
   * You can use virtual machine to install Ubuntu. The [VirtualBox](https://www.virtualbox.org/) is free. The [Parallels Desktop](https://www.parallels.com/pd/general/?gclid=CjwKCAiAgbiQBhAHEiwAuQ6Bkqlt6f3diFGjX7eq3WRUtmwu2i4mzV-EWt_CJ9JVDx5AJtAsX0T13BoCA_gQAvD_BwE) is also good.
   * Note: If you're unable to visualize the robot in rviz, try disabling 3D acceleration in your virtual machine setting.
 ### ROS
-You also need to install ROS (Robot Operating System) after installing Ubuntu. `ROS Noetic` is matched with the recommended `Ubuntu 20.04`. You can find the detailed installation instructions on [ROS Wiki](http://wiki.ros.org/ROS/Installation). You can also watch or check slides of this [recitation](https://umich.instructure.com/courses/499091/files/folder/winter-2022/recitation/Jingyu/Recitation%205%20ROS).
+You also need to install ROS (Robot Operating System) after installing Ubuntu. `ROS Noetic` is matched with the recommended `Ubuntu 20.04`. You can find the detailed installation instructions on [ROS Wiki](http://wiki.ros.org/ROS/Installation).
 
 ### Python Packages
 These packages are required. You can install them by typing `pip install $package name$`.
@@ -39,8 +45,7 @@ You should expect to see the visualization shown below. In this figure, `green p
 
 ![setup](img/setup.png)
 ---
-## Start Working
-Now you have everything ready. You can start reading the assignment instructuons and start implementing your filter. Write your code and adjust the config settings before testing.
+
 
 ---
 ### Configurations
@@ -52,14 +57,13 @@ Parameters can be modified in `config/settings.yaml`.
 * `Lie2Cart`: Set to `True` if you finish implementing the extra points question 2.E.
 
 ---
-### Files you need to implement
-* Implement all four filters. 
+### Important Files:
+* All the filters are as follows: 
   * `filter/EKF.py`
   * `filter/UKF.py`
   * `filter/PF.py`
   * `filter/InEKF.py`
-* Extra points
-  * In `utils/util.py`, finish
+* In `utils/util.py`, we have
     * `func()`
     * `lieToCartesian()`
     * `mahalanobis()`
