@@ -8,17 +8,24 @@
 ### EKF (Extended Kalman Filter)
 ![ekf gif](https://user-images.githubusercontent.com/86003669/235384006-e7b49e93-ad88-4c8f-86b4-a483d421a361.gif)
 
+&nbsp;
+
 ### PF (Particle Filter)
 ![PF gif](https://user-images.githubusercontent.com/86003669/235384210-f8d1d069-b71f-4098-a378-9b44e38e8778.gif)
 
+&nbsp;
 ### UKF (Unscented Kalman Filter)
 ![UKF gif](https://user-images.githubusercontent.com/86003669/235383594-5c14a7bf-6194-42cf-af6f-91f3b3fcf9e2.gif)
+
+&nbsp;
 
 ### InEKF (Invariant Extended Kalman Filter) 
 ![InEKF gif](https://user-images.githubusercontent.com/86003669/235383791-924e417e-ae33-4134-b593-4954b9141dbe.gif)
 
 
 
+&nbsp;
+&nbsp;
 
 ## Dependencies
 ### System
@@ -43,7 +50,7 @@ These packages are required. You can install them by typing `pip install $packag
 * [PyYAML](https://pypi.org/project/PyYAML/)
 * [Matplotlib](https://pypi.org/project/matplotlib/)
 
----
+------
 ## Test Your Setup
 We provide a dummy filter which you can run to test if you have set up your environment correctly.
 1. Open a terminal, run ```roscore```.
